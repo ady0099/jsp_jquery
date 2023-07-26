@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+<product name="제네시스" count="5" />
+<product name="카렌스" count="1" />
+<product name="카니발" count="3" />
+<product name="카스타" count="2" />
+<product name="캐스퍼" count="4" />
+
+</products>

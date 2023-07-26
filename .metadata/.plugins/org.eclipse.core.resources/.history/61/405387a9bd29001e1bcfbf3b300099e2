@@ -1,0 +1,23 @@
+package com.ict.model;
+
+import java.io.BufferedReader;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyModel06 implements Command{
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		StringBuffer sb = new StringBuffer();
+		BufferedReader br = null;
+		try {
+			
+		}catch(Exception e)
+		
+		
+		return null;
+	}
+
+	
+}

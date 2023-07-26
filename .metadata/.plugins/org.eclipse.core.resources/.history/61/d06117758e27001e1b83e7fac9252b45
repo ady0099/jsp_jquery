@@ -1,0 +1,34 @@
+package com.ict.model;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ict.db.DAO;
+import com.ict.db.VO;
+
+public class MyModel01 implements Command{
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		// 일처리
+		List<VO> list = DAO.getList();
+		
+		// 받은 정보로 xml을 만들자
+		StringBuffer sb = new StringBuffer();
+		sb.append("<?xml version=\"1.0\" encodig=\"UTF-8\"?>");
+		sb.append("<mebers>");
+		for(VO k : list) {
+			sb.append("<meber>");
+		}
+		sb.append("</mebers>");
+		
+		
+		
+		
+		// ajax 처리하는 모델은 return을 갈 곳의 주소를 쓰지 않는다.
+		return null;
+	}
+	
+}

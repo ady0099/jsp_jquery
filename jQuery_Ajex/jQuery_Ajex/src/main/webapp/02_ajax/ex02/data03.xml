@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+<product name="제네시스" count="5">현대 자동차</product>
+<product name="카렌스" count="1">기아 자동차</product>
+<product name="카니발" count="6">기아 자동차</product>
+<product name="카스타" count="7">기아 자동차</product>
+<product name="캐스퍼" count="3">기아 자동차</product>
+</products>

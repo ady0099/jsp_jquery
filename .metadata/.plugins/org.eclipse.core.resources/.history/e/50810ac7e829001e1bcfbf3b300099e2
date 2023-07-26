@@ -1,0 +1,14 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyModel10 implements Command {
+
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		
+		
+		return null;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.ict.db;
+
+public class VO {
+	private String IDX,M_ID,M_PW,M_NAME,M_REG,
+}

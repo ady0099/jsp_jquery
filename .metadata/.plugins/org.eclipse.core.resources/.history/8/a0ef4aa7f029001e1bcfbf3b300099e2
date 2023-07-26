@@ -1,0 +1,17 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ict.db.MVO;
+
+public class MyModel11 implements Command{
+
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		MVO mov = new MVO();
+		mvo.
+		int result
+		
+	}
+
+}
